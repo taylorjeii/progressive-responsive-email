@@ -1,0 +1,163 @@
+/* Basics */
+body {
+    Margin: 0;
+    padding: 0;
+    min-width: 100%;
+    background-color: #ffffff;
+}
+table {
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #333333;
+}
+td {
+    padding: 0;
+}
+img {
+    border: 0;
+}
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.webkit {
+    max-width: 600px;
+}
+
+.outer{
+    Margin-right: auto;
+    Margin-left: auto;
+    Margin-top: 10px;
+    Margin-bottom: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.full-width-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.logo-image img{
+    width: 100%;
+    max-width: 189px;
+    height: auto;
+    padding-top: 10px;
+}
+
+.inner {
+padding: 10px;
+}
+p {
+    Margin: 0;
+}
+a {
+    color: #0056B7;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px !important;
+    Margin-bottom: 18px;
+    color: #F57D20;
+}
+.h2 {
+    font-size: 18px;
+    font-weight: bold;
+    Margin-bottom: 12px;
+}
+
+/* One column layout */
+.one-column .contents {
+    text-align: left;
+
+}
+.one-column .text {
+    Margin-bottom: 10px;
+}
+ .text{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #333;
+ }
+
+
+
+.btn-cell a{
+    cursor: pointer;
+}
+
+.call-cell{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+
+.content-cell{
+    padding-left: 10px;
+    padding-right: 5px;
+    text-align: left;
+    line-height: 16px;
+
+}
+
+/*Two column layout*/
+.two-column {
+    text-align: center;
+    font-size: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.two-column a{
+    cursor: pointer;
+}
+
+.two-column .column {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contents {
+    width: 100%;
+}
+
+.two-column .contents {
+    font-size: 14px;
+    text-align: center;
+}
+.two-column img {
+    width: 100%;
+    max-width: 214px;
+    height: auto;
+}
+.two-column .text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #2480fe;
+}
+
+.line{
+    height: 1px;
+    line-height: 1px;
+    background-color: #D3D3D3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-text{
+    font: 11px Verdana, Geneva, sans-serif;
+    color: #666;
+    line-height: 14px
+}
